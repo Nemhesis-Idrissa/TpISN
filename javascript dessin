@@ -1,0 +1,63 @@
+
+<html> 
+
+<head>
+	
+
+<title> "The battle of gods" </title>
+
+<script type="text/javascript">
+	
+function main ( )  {
+
+     
+	var xmin =-10;
+	var xmax =10;
+	var ymin=-10;
+	var ymax=10;
+	var ygrad:1;
+
+    
+	var plot= document.getElementById("curved");
+	var pen = plot.getContext("2d");
+	
+	var y0= plot.height*(0-ymax)/(0-ymax);
+	
+	
+	pen.moveTo(0,225);
+	pen.lineTo(plot.height,y0);
+	pen.stroke();                                                                                                                 
+	
+
+	
+
+}
+
+
+</script>
+
+<link rel="stylesheet" type="text/css" href="projetinformatique.css">
+<meta charset="utf-8">
+
+</head>
+
+
+<body onload="main()">
+	
+
+<h1> Idrissa est le boss </h1>
+
+
+<canvas id="curved" width="800" height="450" style="background:yellow"/>
+
+
+
+</body>
+
+
+
+
+
+
+
+</html>
